@@ -1,7 +1,7 @@
 # Bioinformatics-Genomics-learning-resource
 
 ### Books
-Bioinformatics Data Skills: Reproducible and Robust Research with Open Source Tools https://vincebuffalo.com/book/
+Bioinformatics Data Skills: Reproducible and Robust Research with Open Source Tools https://vincebuffalo.com/book/. The scripts for the book can be found [here](https://github.com/vsbuffalo/bds-files/)
 
 [Python for Biologists](https://pythonforbiologists.com/)
 
