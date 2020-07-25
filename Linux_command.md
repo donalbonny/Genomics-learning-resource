@@ -27,8 +27,8 @@ gzip reads.fastq
 
 ``` zgrep -c 'ATGATGATG' reads.fq.gz ```
 
-    ```
-    398065 
-    ```    
+ ```
+398065 
+```    
 
 
