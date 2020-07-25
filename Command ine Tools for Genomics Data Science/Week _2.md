@@ -15,4 +15,8 @@ The attribute list must begin with the two mandatory attributes:
 
 [Data file format resource from UCSC](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
 
+### Samtools
+
+samtools 
+
 
