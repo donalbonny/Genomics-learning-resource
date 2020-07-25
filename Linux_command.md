@@ -5,3 +5,11 @@ A file storing biological sequences with extension ‘.fastq’ is a file in FAS
 ```
 gzip reads.fastq
 ```
+
+2. check the contents of the file we can use the command ‘less’ or ‘zless’:
+
+```
+ less reads.fastq.gz
+ zless reads.fastq.gz
+```
+
