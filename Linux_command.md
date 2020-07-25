@@ -1,6 +1,10 @@
 # List of helpful Linux commands to process FASTQ, FASTA files from NGS experiments
 A file storing biological sequences with extension ‘.fastq’ is a file in FASTQ format, if it is also compressed with GZIP  the suffix will be ‘.fastq.gz’ 
 
+The first thing to do is checking your FASTQ files quality ( sequencing is good quality or not) . How to look at the quality 
+
+
+
 ##### 1.  Compress a FASTQ file in GZIP format:
 
 ```gzip reads.fastq```
