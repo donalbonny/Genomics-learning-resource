@@ -13,6 +13,6 @@ The attribute list must begin with the two mandatory attributes:
 - gene_id value - A globally unique identifier for the genomic source of the sequence.
 - transcript_id value - A globally unique identifier for the predicted transcript.
 
-[Data file format resource from UCSC] (http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
+[Data file format resource from UCSC](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
 
 
