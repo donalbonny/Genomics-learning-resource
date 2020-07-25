@@ -26,6 +26,9 @@ gzip reads.fastq
  5. count how many times appear an specific subsequence:
 
 ``` zgrep -c 'ATGATGATG' reads.fq.gz ```
-    ``` 398065 ```    
+
+    ```
+    398065 
+    ```    
 
 
