@@ -22,5 +22,13 @@ A file storing biological sequences with extension ‘.fastq’ is a file in FAS
 
 ``` zgrep -c 'ATGATGATG' reads.fq.gz ```
 
+##### 6. How much disk space is using the compressed file:
+```zcat reads.fq.gz | wc --bytes```
+
+#### Reference:
+1. http://darrenjw.wordpress.com/2010/11/28/introduction-to-the-processing-of-short-read-next-generation-sequencing-data/
+
+
+
 
 
