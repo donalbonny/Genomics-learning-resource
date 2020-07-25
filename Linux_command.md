@@ -22,4 +22,10 @@ gzip reads.fastq
  
  4. Count the number of reads in FASTQ files
  ```echo $(cat yourfile.fastq|wc -l)/4|bc  ```
+ 
+ 5. count how many times appear an specific subsequence:
+
+``` zgrep -c 'ATGATGATG' reads.fq.gz ```
+    ``` 398065 ```    
+
 
