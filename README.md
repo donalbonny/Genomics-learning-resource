@@ -9,3 +9,9 @@ Bioinformatics Data Skills: Reproducible and Robust Research with Open Source To
 
 [Cancer Genomics, Gene Expression data analysis using Python](https://medium.com/adventures-in-healthcare-data/cancer-genomics-ii-exploring-biomarkers-of-liver-cancer-in-gene-expression-data-using-python-b719b519b406)
 
+### Courses 
+
+[Command Line Tools for Genomic Data Science- Coursera](https://www.coursera.org/learn/genomic-tools)
+
+
+
