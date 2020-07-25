@@ -11,5 +11,15 @@ gzip reads.fastq
 ```
  less reads.fastq.gz
  zless reads.fastq.gz
+ 
 ```
+
+3.  If the file is in FASTA format, we will count the number of sequences like this:
+
+ ```
+ grep -c "^>" reads.fa
+ ```
+ 
+ 4. Count the number of reads in FASTQ files
+ ```echo $(cat yourfile.fastq|wc -l)/4|bc  ```
 
