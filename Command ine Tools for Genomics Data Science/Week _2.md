@@ -60,11 +60,11 @@ samtools
      
  1. How many alignments does bam file contain?  
      ```samtools flagstat sample.bam```
-     21457214 + 0 in total (QC-passed reads + QC-failed reads)
+     
+2. Sort file for indexing, for visualization 
 
-
-2. sort file for indexing, for visualization 
 ```nohup samtools sort input.bam input.sorted.bam &```
+
 This is quite extensive 
 'nohup' (no hangup) that's to prevent any interruption from the curretn terminal to be transmitted. 
 
@@ -74,4 +74,25 @@ Output that would normally go to the terminal goes to a file called nohup.out if
 '2>&1' - redirect stderr to stdout
 
 The trailing '&' operator at the end of a command is used to put commands into background. 
+
+3. Generate index file for bam file > generate .bam.bai 
+
+```samtools index example.sorted.bam```
+
+4. How to merge bam files?
+
+``` nohup samtools merge sample.bam sample1.bam sample2.bam &```
+
+5. samtools view: 
+
+     ```samtools view sample1.bam | more ```  convert to sam form with no header information 
+     ```samtools view -h sample1.bam | more```  contain with header information
+     ```samtools view -H sample1.bam ```  print only header 
+     ```samtools view -bT /reference_file/hg38.fa example.sam > sample.sam.bam``` convert sam to bam 
+     ```samtools view example.bam  "chr2:24000-25000000"```  view regions, only apply for indexed BAM or CRAM files
+     
+     
+     
+
+
 
