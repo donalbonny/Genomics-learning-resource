@@ -58,21 +58,10 @@ samtools
      view           SAM<->BAM<->CRAM conversion
      depad          convert padded BAM to unpadded BAM
      
-     1. How many alignments does bam file contain? 
+ 1. How many alignments does bam file contain?  
      ```samtools flagstat sample.bam```
      21457214 + 0 in total (QC-passed reads + QC-failed reads)
-0 + 0 secondary
-0 + 0 supplementary
-0 + 0 duplicates
-21457214 + 0 mapped (100.00% : N/A)
-21457214 + 0 paired in sequencing
-10728607 + 0 read1
-10728607 + 0 read2
-21457214 + 0 properly paired (100.00% : N/A)
-21457214 + 0 with itself and mate mapped
-0 + 0 singletons (0.00% : N/A)
-0 + 0 with mate mapped to a different chr
-0 + 0 with mate mapped to a different chr (mapQ>=5)
+
 
 2. sort file for indexing, for visualization 
 ```nohup samtools sort input.bam input.sorted.bam &```
