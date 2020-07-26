@@ -85,11 +85,24 @@ The trailing '&' operator at the end of a command is used to put commands into b
 
 5. samtools view: 
 
-     ```samtools view sample1.bam | more ```  convert to sam form with no header information 
-     ```samtools view -h sample1.bam | more```  contain with header information
-     ```samtools view -H sample1.bam ```  print only header 
-     ```samtools view -bT /reference_file/hg38.fa example.sam > sample.sam.bam``` convert sam to bam 
-     ```samtools view example.bam  "chr2:24000-25000000"```  view regions, only apply for indexed BAM or CRAM files
+```samtools view sample1.bam | more ```  convert to sam form with no header information 
+     
+```samtools view -h sample1.bam | more```  contain with header information
+     
+```samtools view -H sample1.bam ```  print only header 
+
+```samtools view -bT /reference_file/hg38.fa example.sam > sample.sam.bam``` convert sam to bam 
+     
+```samtools view example.bam  "chr2:24000-25000000"```  view regions, only apply for indexed BAM or CRAM files
+
+```samtools view -L  example.bed example.bam  | head``` specify the regions in bed file 
+
+
+### Bedtools 
+
+
+
+
      
      
      
