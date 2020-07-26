@@ -18,5 +18,71 @@ The attribute list must begin with the two mandatory attributes:
 ### Samtools
 
 samtools 
+-- Indexing
+     dict           create a sequence dictionary file
+     faidx          index/extract FASTA
+     fqidx          index/extract FASTQ
+     index          index alignment
 
+  -- Editing
+     calmd          recalculate MD/NM tags and '=' bases
+     fixmate        fix mate information
+     reheader       replace BAM header
+     targetcut      cut fosmid regions (for fosmid pool only)
+     addreplacerg   adds or replaces RG tags
+     markdup        mark duplicates
+
+  -- File operations
+     collate        shuffle and group alignments by name
+     cat            concatenate BAMs
+     merge          merge sorted alignments
+     mpileup        multi-way pileup
+     sort           sort alignment file
+     split          splits a file by read group
+     quickcheck     quickly check if SAM/BAM/CRAM file appears intact
+     fastq          converts a BAM to a FASTQ
+     fasta          converts a BAM to a FASTA
+
+  -- Statistics
+     bedcov         read depth per BED region
+     coverage       alignment depth and percent coverage
+     depth          compute the depth
+     flagstat       simple stats
+     idxstats       BAM index stats
+     phase          phase heterozygotes
+     stats          generate stats (former bamcheck)
+
+  -- Viewing
+     flags          explain BAM flags
+     tview          text alignment viewer
+     view           SAM<->BAM<->CRAM conversion
+     depad          convert padded BAM to unpadded BAM
+     
+     1. How many alignments does bam file contain? 
+     ```samtools flagstat sample.bam```
+     21457214 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+21457214 + 0 mapped (100.00% : N/A)
+21457214 + 0 paired in sequencing
+10728607 + 0 read1
+10728607 + 0 read2
+21457214 + 0 properly paired (100.00% : N/A)
+21457214 + 0 with itself and mate mapped
+0 + 0 singletons (0.00% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+2. sort file for indexing, for visualization 
+```nohup samtools sort input.bam input.sorted.bam &```
+This is quite extensive 
+'nohup' (no hangup) that's to prevent any interruption from the curretn terminal to be transmitted. 
+
+Note: nohup is a POSIX command to ignore the HUP (hangup) signal. The HUP signal is, by convention, the way a terminal warns dependent processes of logout.
+Output that would normally go to the terminal goes to a file called nohup.out if it has not already been redirected.
+
+'2>&1' - redirect stderr to stdout
+
+The trailing '&' operator at the end of a command is used to put commands into background. 
 
