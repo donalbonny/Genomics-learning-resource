@@ -100,6 +100,20 @@ The trailing '&' operator at the end of a command is used to put commands into b
 
 ### Bedtools 
 
+##### Purpose: 
+- Convert one format to another 
+- Sequence manipulation 
+
+##### Usage
+
+
+
+
+
+
+
+
+
 
 
 
