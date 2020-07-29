@@ -106,6 +106,10 @@ The trailing '&' operator at the end of a command is used to put commands into b
 
 ##### Usage
 
+bedtools intersect -a <bed/gtf/vcf> -b <bed/gtf/vcf>
+
+
+
 
 
 
