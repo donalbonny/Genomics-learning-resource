@@ -1,7 +1,8 @@
 # Python from Scratch 
 
 Programming tasks for molecular biology
-[Course link]{https://www.coursera.org/learn/python-genomics/home/welcome}
+
+[Course link](https://www.coursera.org/learn/python-genomics/home/welcome)
 
 ### Week 1
  
