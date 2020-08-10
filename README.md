@@ -15,7 +15,9 @@ Bioinformatics Data Skills: Reproducible and Robust Research with Open Source To
 
 ### Linux Command in NGS Data Analysis 
 
-Check the Linux_command_in_NGS.md file for more examples
+Check my Bioinformatics Data Skills  in this repository or [Bioinformatics Data Skills Book](https://vincebuffalo.com/book/) and Linux_command_in_NGS.md file for more examples
+
+
 
 ### Resources for common tools in NGS
 
