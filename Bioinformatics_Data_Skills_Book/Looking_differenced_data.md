@@ -4,4 +4,4 @@ One approach to this is to compute the diff between two files using the Unix too
 
 ```diff -u gene-1.bed gene-2.bed```
 
-![diff](diff.png)
+![diff](Figures/diff.png)
