@@ -29,6 +29,8 @@ To obtain MD5 sum for a list of files in a folder:
 
 ```find -type f -exec md5sum {} \; > md5.list```
 
+``` shasum data/*.fastq > fastq_chechsum.sha```
+
 For Window Powershell
 
 ```Get-FileHash <filepath> -Algorithm MD5```
