@@ -37,6 +37,17 @@ For Window Powershell
 
 ```CertUtil -hashfile <file path>   MD5```
 
+For MAC OS: ```md5 <filename> ```
+  
+
+We can use shasum’s check option (-c) to validate that these files match the original versions:
+$ shasum -c fastq_checksums.sha
+data/Csyrichta_TAGGACT_L008_R1_001.fastq: OK
+data/Csyrichta_TAGGACT_L008_R1_006.fastq: FAILED
+shasum: WARNING: 1 computed checksum did NOT match
+
+
+
 
 
 
