@@ -34,5 +34,7 @@ The authors give good examples of why certain metrics may fail
 [FATSQC Help](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/)
 
 
+Intersting diagram about FASTQC 
+https://nf-co.re/eager/2.1.0/output
 
 
