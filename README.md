@@ -5,6 +5,8 @@ Bioinformatics Data Skills: Reproducible and Robust Research with Open Source To
 
 [Python for Biologists](https://pythonforbiologists.com/)
 
+[Next-Generation Sequencing Data Analysis] (https://www.amazon.com/dp/1482217880/ref=rdr_ext_tmb)
+
 ### Reads 
 
 [Cancer Genomics, Gene Expression data analysis using Python](https://medium.com/adventures-in-healthcare-data/cancer-genomics-ii-exploring-biomarkers-of-liver-cancer-in-gene-expression-data-using-python-b719b519b406)
