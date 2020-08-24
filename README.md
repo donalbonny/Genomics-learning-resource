@@ -5,7 +5,7 @@ Bioinformatics Data Skills: Reproducible and Robust Research with Open Source To
 
 [Python for Biologists](https://pythonforbiologists.com/)
 
-[Next-Generation Sequencing Data Analysis] (https://www.amazon.com/dp/1482217880/ref=rdr_ext_tmb)
+[Next-Generation Sequencing Data Analysis](https://www.amazon.com/dp/1482217880/ref=rdr_ext_tmb)
 
 ### Reads 
 
