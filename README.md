@@ -23,6 +23,8 @@ Check my Bioinformatics Data Skills  in this repository or [Bioinformatics Data 
 
 ### Resources for common tools in NGS
 
+##### [Computational Genomics with R](https://compgenomr.github.io/book/)
+
 ##### FASTQC 
 
 https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/
