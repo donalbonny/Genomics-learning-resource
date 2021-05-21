@@ -15,6 +15,9 @@ Bioinformatics Data Skills: Reproducible and Robust Research with Open Source To
 
 [Command Line Tools for Genomic Data Science- Coursera](https://www.coursera.org/learn/genomic-tools)
 
+[Introduction to Computational Biology] (https://biodatascience.github.io/compbio/)
+
+
 ### Linux Command in NGS Data Analysis 
 
 Check my Bioinformatics Data Skills  in this repository or [Bioinformatics Data Skills Book](https://vincebuffalo.com/book/) and Linux_command_in_NGS.md file for more examples
